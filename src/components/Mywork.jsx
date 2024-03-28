@@ -418,10 +418,10 @@ const Mywork = () => {
                                             Github-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://github.com/mohini/calculator"
+                                                    href="https://github.com/mohini-442/calculator"
                                                     target="blank"
                                                 >
-                                                    https://github.com/mohini/calculator
+                                                    https://github.com/mohini-442/calculator
                                                 </a>
                                             </span>
                                         </p>
@@ -429,10 +429,10 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://clac-three.vercel.app/"
+                                                    href="https://calculator-green-gamma.vercel.app/"
                                                     target="blank"
                                                 >
-                                                    https://clac-three.vercel.app/
+                                                    https://calculator-green-gamma.vercel.app/
                                                 </a>
                                             </span>
                                         </p>
