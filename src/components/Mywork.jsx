@@ -3,7 +3,7 @@ import img1 from "../assets/images/dompkong.png";
 import img2 from "../assets/images/ft-plane.png";
 import img3 from "../assets/images/furniture.png";
 import img4 from "../assets/images/lemonwares.png";
-import img5 from "../assets/images/lemonwares.png";
+import img5 from "../assets/images/exclusivegames.png";
 import img6 from "../assets/images/dino.png";
 import img7 from "../assets/images/texas.png";
 import img8 from "../assets/images/calculator.png";
@@ -278,7 +278,7 @@ const Mywork = () => {
                                                     href="https://github.com/mohini-442/exclusive-games"
                                                     target="blank"
                                                 >
-                                                    https://vercel.com/mohinis-projects/exclusive-games-9ai8
+                                                    https://github.com/mohini-442/exclusive-games
                                                 </a>
                                             </span>
                                         </p>
