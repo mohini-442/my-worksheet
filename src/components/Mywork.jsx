@@ -214,7 +214,7 @@ const Mywork = () => {
                                 <div className="w-3/5 px-3">
                                     <div className="flex pb-3 items-center">
                                         <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
-                                            LEMON_WARES
+                                            LEMONWARES
                                         </p>
                                     </div>
                                     <div>
@@ -233,10 +233,10 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://vercel.com/mohinis-projects/lemon"
+                                                    href="https://lemon-tau.vercel.app/"
                                                     target="blank"
                                                 >
-                                                    https://vercel.com/mohinis-projects/lemon
+                                                    https://lemon-tau.vercel.app/
                                                 </a>
                                             </span>
                                         </p>
@@ -418,10 +418,10 @@ const Mywork = () => {
                                             Github-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://github.com/mohini-442/calculator"
+                                                    href="https://github.com/mohini-442/clac"
                                                     target="blank"
                                                 >
-                                                    https://github.com/mohini-442/calculator
+                                                    https://github.com/mohini-442/clac
                                                 </a>
                                             </span>
                                         </p>
@@ -429,17 +429,16 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://calculator-green-gamma.vercel.app/"
+                                                    href="https://clac-three.vercel.app/"
                                                     target="blank"
                                                 >
-                                                    https://calculator-green-gamma.vercel.app/
+                                                    https://clac-three.vercel.app/
                                                 </a>
                                             </span>
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="flex pt-6 flex-wrap items-center flex-row -mx-3">
                                 <div className="w-2/5 px-3">
                                     <div className="flex">
