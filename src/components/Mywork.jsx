@@ -14,6 +14,7 @@ import img12 from "../assets/images/swiperslider.png";
 import img13 from "../assets/images/formvalidation.png";
 import img14 from "../assets/images/swiperslider.png";
 import img15 from '../assets/images/vite.png'
+import img16 from '../assets/images/worksheet.png'
 
 const Mywork = () => {
     const [tab, settab] = useState("tab1");
@@ -35,21 +36,18 @@ const Mywork = () => {
                 </div>
                 <div className="flex flex-row justify-between pt-4 flex-wrap -mx-3">
                     <div className="w-1/5 px-3 p-4 border-white border-[2px] bg-black">
-                        <p className=" px-8 text-2xl font-Poppins bg-[#6200ea] text-center font-semibold  text-white py-2 mb-2">
+                        <p className=" px-8 text-2xl font-Poppins bg-[#6200ea] text-center font-semibold  text-white py-2 mb-2 cursor-pointer">
                             Months
                         </p>
-                        <button onClick={() => handletab("tab1")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab1")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold hover:bg-[#6200ea] hover:text-white duration-[0.5s] text-[#6200ea] bg-white py-2">
                             January
                         </button>
-                        <button onClick={() => handletab("tab2")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab2")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s] text-[#6200ea] bg-white py-2">
                             February
                         </button>
-                        <button onClick={() => handletab("tab3")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab3")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s]  text-[#6200ea] bg-white py-2">
                             March
                         </button>
-                        {/* <button onClick={() => handletab("tab4")} className="rounded-full mb-2 w-full font-Poppins px-8 text-2xl text-center text-white py-2 border-solid border-white border-[3px]">
-                            April
-                        </button> */}
                     </div>
                     <div className="w-4/5">
                         {tab === "tab1" && <div className="p-3 border-white max-h-[550px] overflow-y-scroll  border-[2px] bg-black">
@@ -788,7 +786,7 @@ const Mywork = () => {
                                             </p>
                                         </div>
                                         <img
-                                            src={img14}
+                                            src={img16mmit3}
                                             alt="2"
                                             className="w-full h-full max-h-[210px] pt-2 max-w-[350px]"
                                         />
