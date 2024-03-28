@@ -334,7 +334,7 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://vercel.com/mohinis-projects/dinolfg"
+                                                    href="https://dinolfg-indol.vercel.app/"
                                                     target="blank"
                                                 >
                                                     https://vercel.com/mohinis-projects/dinolfg
@@ -381,7 +381,7 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://vercel.com/mohinis-projects/naxai"
+                                                    href="https://naxai.vercel.app/"
                                                     target="blank"
                                                 >
                                                     https://vercel.com/mohinis-projects/naxai
@@ -476,7 +476,7 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://vercel.com/mohinis-projects/nexai2"
+                                                    href="https://nexai2-nine.vercel.app/"
                                                     target="blank"
                                                 >
                                                     https://vercel.com/mohinis-projects/nexai2
