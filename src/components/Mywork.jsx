@@ -13,6 +13,7 @@ import img11 from "../assets/images/nextjs.png";
 import img12 from "../assets/images/swiperslider.png";
 import img13 from "../assets/images/formvalidation.png";
 import img14 from "../assets/images/swiperslider.png";
+import img15 from '../assets/images/vite.png'
 
 const Mywork = () => {
     const [tab, settab] = useState("tab1");
@@ -365,9 +366,6 @@ const Mywork = () => {
                                         <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
                                             NEX-AI
                                         </p>
-                                        <p className="text-white  text-xl font-poppins ">
-                                            (Date of submission : 17-02-2024)
-                                        </p>
                                     </div>
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
@@ -463,9 +461,6 @@ const Mywork = () => {
                                     <div className="flex pb-3 items-center">
                                         <p className="text-white pr-2 font-semibold text-2xl font-poppins ">
                                             BOOTSTRAP_NEX-AI
-                                        </p>
-                                        <p className="text-white  text-xl font-poppins ">
-                                            (Date of submission : 01-03-2024)
                                         </p>
                                     </div>
                                     <div>
@@ -746,6 +741,53 @@ const Mywork = () => {
                                             </p>
                                         </div>
                                         <img
+                                            src={img15}
+                                            alt="2"
+                                            className="w-full h-full max-h-[210px] pt-2 max-w-[350px]"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-3/5 px-3">
+                                    <div className="flex flex-wrap pb-3 items-center">
+                                        <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                                            VITE-PROJECT
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Github-Link :{" "}
+                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                                <a
+                                                    href="https://github.com/mohini-442/vite-project"
+                                                    target="blank"
+                                                >
+                                                    https://github.com/mohini-442/vite-project
+                                                </a>
+                                            </span>
+                                        </p>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Live-Link :{" "}
+                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                                <a
+                                                    href="https://vite-project-alpha-teal.vercel.app/"
+                                                    target="blank"
+                                                >
+                                                    https://vite-project-alpha-teal.vercel.app/
+                                                </a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex pt-6 flex-wrap items-center flex-row -mx-3">
+                                <div className="w-2/5 px-3">
+                                    <div className="flex">
+                                        <div>
+                                            <p className="text-white pr-3 font-semibold text-[30px] font-poppins pb-3">
+                                                7.
+                                            </p>
+                                        </div>
+                                        <img
                                             src={img14}
                                             alt="2"
                                             className="w-full h-full max-h-[210px] pt-2 max-w-[350px]"
@@ -757,19 +799,16 @@ const Mywork = () => {
                                         <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
                                             WORKSHEET
                                         </p>
-                                        <p className="text-white  text-xl font-poppins ">
-                                            (Date of submission : 26-03-2024)
-                                        </p>
                                     </div>
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://github.com/Priyanka-390/worksheet"
+                                                    href="https://github.com/mohini-442/my-worksheet"
                                                     target="blank"
                                                 >
-                                                    https://github.com/Priyanka-390/worksheet
+                                                    https://github.com/mohini-442/my-worksheet
                                                 </a>
                                             </span>
                                         </p>
@@ -777,16 +816,17 @@ const Mywork = () => {
                                             Live-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://worksheet-tau.vercel.app/"
+                                                    href="https://my-worksheet.vercel.app/"
                                                     target="blank"
                                                 >
-                                                    https://worksheet-tau.vercel.app/
+                                                    https://my-worksheet.vercel.app/
                                                 </a>
                                             </span>
                                         </p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>}
                     </div>
                 </div>
