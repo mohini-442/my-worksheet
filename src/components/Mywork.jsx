@@ -418,10 +418,10 @@ const Mywork = () => {
                                             Github-Link :{" "}
                                             <span className="ms-3 hover:text-[#6200ea] duration-300">
                                                 <a
-                                                    href="https://github.com/Priyanka-390/calculator"
+                                                    href="https://github.com/mohini/calculator"
                                                     target="blank"
                                                 >
-                                                    https://github.com/Priyanka-390/calculator
+                                                    https://github.com/mohini/calculator
                                                 </a>
                                             </span>
                                         </p>
