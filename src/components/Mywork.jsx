@@ -786,7 +786,7 @@ const Mywork = () => {
                                             </p>
                                         </div>
                                         <img
-                                            src={img16mmit3}
+                                            src={img16}
                                             alt="2"
                                             className="w-full h-full max-h-[210px] pt-2 max-w-[350px]"
                                         />
