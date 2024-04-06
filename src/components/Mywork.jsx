@@ -12,9 +12,9 @@ import img10 from "../assets/images/lavs248.png";
 import img11 from "../assets/images/nextjs.png";
 import img12 from "../assets/images/swiperslider.png";
 import img13 from "../assets/images/formvalidation.png";
-import img14 from "../assets/images/swiperslider.png";
-import img15 from '../assets/images/vite.png'
-import img16 from '../assets/images/worksheet.png'
+import img15 from '../assets/images/vite.png';
+import img16 from '../assets/images/worksheet.png';
+import noblemind from '../assets/images/noblemind.png'
 
 const Mywork = () => {
     const [tab, settab] = useState("tab1");
@@ -47,6 +47,9 @@ const Mywork = () => {
                         </button>
                         <button onClick={() => handletab("tab3")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s]  text-[#6200ea] bg-white py-2">
                             March
+                        </button>
+                        <button onClick={() => handletab("tab4")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s]  text-[#6200ea] bg-white py-2">
+                            April
                         </button>
                     </div>
                     <div className="w-4/5">
@@ -244,7 +247,6 @@ const Mywork = () => {
                                 </div>
                             </div>
                         </div>}
-
                         {tab === "tab2" && <div className="p-4 border-white max-h-[550px] overflow-y-scroll  border-[2px]  bg-black">
                             <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
                                 February
@@ -824,6 +826,59 @@ const Mywork = () => {
                                 </div>
                             </div>
 
+                        </div>}
+                        {tab === "tab4" && <div className="p-3 border-white h-[550px] overflow-y-scroll  border-[2px] bg-black">
+                            <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
+                                April
+                            </p>
+                            <div className="flex flex-wrap items-center flex-row -mx-3">
+                                <div className="w-2/5 px-3">
+                                    <div className="flex">
+                                        <div>
+                                            <p className="text-white pr-3 text-[30px] font-semibold font-poppins">
+                                                1.
+                                            </p>
+                                        </div>
+                                        <img
+                                            src={noblemind}
+                                            alt="1"
+                                            className="w-full pt-2 max-h-[210px] h-full max-w-[350px]"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-3/5 px-3">
+                                    <div className="flex pb-3 items-center">
+                                        <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                                            NOBLE-MIND
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Github-Link :{" "}
+                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                                <a
+                                                    href="
+                                                    https://github.com/mohini-442/noble-mind"
+                                                    target="blank"
+                                                >
+                                                    https://github.com/mohini-442/noble-mind
+                                                </a>
+                                            </span>
+                                        </p>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Live-Link :{" "}
+                                            <span className="ms-3  hover:text-[#6200ea] duration-300">
+                                                <a
+                                                    href="https://noble-mind-s7in.vercel.app/"
+                                                    target="blank"
+                                                >
+                                                    https://noble-mind-s7in.vercel.app/
+                                                </a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>}
                     </div>
                 </div>
