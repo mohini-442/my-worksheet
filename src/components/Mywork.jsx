@@ -14,7 +14,8 @@ import img12 from "../assets/images/swiperslider.png";
 import img13 from "../assets/images/formvalidation.png";
 import img15 from '../assets/images/vite.png';
 import img16 from '../assets/images/worksheet.png';
-import noblemind from '../assets/images/noblemind.png'
+import noblemind from '../assets/images/noblemind.png';
+import emailjs from '../assets/images/emailjs.jpg';
 
 const Mywork = () => {
     const [tab, settab] = useState("tab1");
@@ -23,38 +24,38 @@ const Mywork = () => {
     }
 
     return (
-        <div className=" min-h-screen bg-[#0c111f] flex justify-center items-center">
-            <div className="container max-w-[1320px]  mx-auto px-3">
+        <div className=" min-h-screen bg-[#240023] bgimage bg-cover bg-no-repeat bg-center after:h-full after:w-full after:opacity-[0.6] after:absolute relative after:bg-[#000] flex justify-center items-center">
+            <div className="container relative z-10 max-w-[1320px]  mx-auto px-3">
                 <div className="flex w-full justify-between items-center pb-5">
-                    <h1 className="font-Poppins text-[44px] text-center  font-bold text-white">
+                    <h1 className="font-Poppins text-[44px] text-center font-bold text-white">
                         WORKSHEET-2024
                     </h1>
 
-                    <a href=""> <p className=" px-8 text-2xl font-Poppins font-semibold text-[#6200ea] py-2 bg-white ">
+                    <a href=""> <p className="px-8 text-2xl font-Poppins font-semibold text-[#E148EB] py-2 bg-white ">
                         MOHINI-402
                     </p></a>
                 </div>
                 <div className="flex flex-row justify-between pt-4 flex-wrap -mx-3">
-                    <div className="w-1/5 px-3 p-4 border-white border-[2px] bg-black">
-                        <p className=" px-8 text-2xl font-Poppins bg-[#6200ea] text-center font-semibold  text-white py-2 mb-2 cursor-pointer">
+                    <div className="w-1/5 px-3 p-4 border-white border-[2px] bgimage2 bg-center bg-cover bg-no-repeat">
+                        <p className=" px-8 text-2xl font-Poppins bg-[#E148EB] text-center font-semibold  text-white py-2 mb-2 cursor-pointer">
                             Months
                         </p>
-                        <button onClick={() => handletab("tab1")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold hover:bg-[#6200ea] hover:text-white duration-[0.5s] text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab1")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold hover:bg-[#E148EB] hover:text-white duration-[0.5s] text-[#E148EB] bg-white py-2">
                             January
                         </button>
-                        <button onClick={() => handletab("tab2")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s] text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab2")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#E148EB] hover:text-white duration-[0.5s] text-[#E148EB] bg-white py-2">
                             February
                         </button>
-                        <button onClick={() => handletab("tab3")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s]  text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab3")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#E148EB] hover:text-white duration-[0.5s]  text-[#E148EB] bg-white py-2">
                             March
                         </button>
-                        <button onClick={() => handletab("tab4")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#6200ea] hover:text-white duration-[0.5s]  text-[#6200ea] bg-white py-2">
+                        <button onClick={() => handletab("tab4")} className=" mb-2 w-full font-Poppins px-8 text-2xl text-center font-semibold  hover:bg-[#E148EB] hover:text-white duration-[0.5s]  text-[#E148EB] bg-white py-2"  >
                             April
                         </button>
                     </div>
                     <div className="w-4/5">
-                        {tab === "tab1" && <div className="p-3 border-white max-h-[550px] overflow-y-scroll  border-[2px] bg-black">
-                            <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
+                        {tab === "tab1" && <div className="p-3 border-white max-h-[550px] overflow-y-scroll  border-[2px]  bg-[#240023] bg-center bg-cover bg-no-repeat ">
+                            <p className="text-white text-[32px] font-semibold hover:text-[#E148EB] duration-[0.5s] font-poppins pb-3 ps-5">
                                 January
                             </p>
                             <div className="flex flex-wrap items-center flex-row -mx-3">
@@ -81,7 +82,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/dompkong"
                                                     target="blank"
@@ -92,7 +93,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3  hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://dompkong-flax.vercel.app/"
                                                     target="blank"
@@ -128,7 +129,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3  hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/ft-plane"
                                                     target="blank"
@@ -139,7 +140,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://ft-plane-azure.vercel.app/"
                                                     target="blank"
@@ -176,7 +177,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/furniture"
                                                     target="blank"
@@ -187,7 +188,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://furniture-coral-iota.vercel.app/"
                                                     target="blank"
@@ -223,7 +224,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3  hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/lemon"
                                                     target="blank"
@@ -234,7 +235,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://lemon-tau.vercel.app/"
                                                     target="blank"
@@ -248,7 +249,7 @@ const Mywork = () => {
                             </div>
                         </div>}
                         {tab === "tab2" && <div className="p-4 border-white max-h-[550px] overflow-y-scroll  border-[2px]  bg-black">
-                            <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
+                            <p className="text-white text-[32px] font-semibold hover:text-[#E148EB] duration-[0.5s] font-poppins pb-3 ps-5">
                                 February
                             </p>
                             <div className="flex flex-wrap items-center flex-row -mx-3">
@@ -275,7 +276,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/exclusive-games"
                                                     target="blank"
@@ -286,7 +287,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://exclusive-eight.vercel.app/"
                                                     target="blank"
@@ -323,7 +324,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/dinolfg"
                                                     target="blank"
@@ -334,7 +335,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://dinolfg-indol.vercel.app/"
                                                     target="blank"
@@ -370,7 +371,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/naxai"
                                                     target="blank"
@@ -381,7 +382,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://naxai.vercel.app/"
                                                     target="blank"
@@ -418,7 +419,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/clac"
                                                     target="blank"
@@ -429,7 +430,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://clac-three.vercel.app/"
                                                     target="blank"
@@ -465,7 +466,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/nexai2"
                                                     target="blank"
@@ -476,7 +477,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://nexai2-nine.vercel.app/"
                                                     target="blank"
@@ -490,7 +491,7 @@ const Mywork = () => {
                             </div>
                         </div>}
                         {tab === "tab3" && <div className="p-4 border-white max-h-[550px] overflow-y-scroll  border-[2px] bg-black">
-                            <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
+                            <p className="text-white text-[32px] font-semibold hover:text-[#E148EB] duration-[0.5s] font-poppins pb-3 ps-5">
                                 March
                             </p>
                             <div className="flex flex-wrap items-center flex-row -mx-3">
@@ -517,7 +518,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/cloop"
                                                     target="blank"
@@ -528,7 +529,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://cloop-pi.vercel.app/"
                                                     target="blank"
@@ -565,7 +566,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/248labss"
                                                     target="blank"
@@ -576,7 +577,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://248labss.vercel.app/"
                                                     target="blank"
@@ -612,7 +613,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/my-nextjs
 "
@@ -624,7 +625,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://my-nextjs-wine.vercel.app/"
                                                     target="blank"
@@ -661,7 +662,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/swiper-slider"
                                                     target="blank"
@@ -672,7 +673,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://swiper-slider-five.vercel.app/"
                                                     target="blank"
@@ -708,7 +709,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/form-validation"
                                                     target="blank"
@@ -719,7 +720,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://form-validation-psi-ashy.vercel.app/"
                                                     target="blank"
@@ -755,7 +756,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/vite-project"
                                                     target="blank"
@@ -766,7 +767,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://vite-project-alpha-teal.vercel.app/"
                                                     target="blank"
@@ -802,7 +803,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://github.com/mohini-442/my-worksheet"
                                                     target="blank"
@@ -813,7 +814,7 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://my-worksheet.vercel.app/"
                                                     target="blank"
@@ -828,7 +829,7 @@ const Mywork = () => {
 
                         </div>}
                         {tab === "tab4" && <div className="p-3 border-white h-[550px] overflow-y-scroll  border-[2px] bg-black">
-                            <p className="text-white text-[32px] font-semibold hover:text-[#6200ea] duration-[0.5s] font-poppins pb-3 ps-5">
+                            <p className="text-white text-[32px] font-semibold hover:text-[#E148EB] duration-[0.5s] font-poppins pb-3 ps-5">
                                 April
                             </p>
                             <div className="flex flex-wrap items-center flex-row -mx-3">
@@ -855,7 +856,7 @@ const Mywork = () => {
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
                                             Github-Link :{" "}
-                                            <span className="ms-3 hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="
                                                     https://github.com/mohini-442/noble-mind"
@@ -867,12 +868,60 @@ const Mywork = () => {
                                         </p>
                                         <p className="text-white text-xl font-poppins ">
                                             Live-Link :{" "}
-                                            <span className="ms-3  hover:text-[#6200ea] duration-300">
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
                                                 <a
                                                     href="https://noble-mind-s7in.vercel.app/"
                                                     target="blank"
                                                 >
                                                     https://noble-mind-s7in.vercel.app/
+                                                </a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap items-center flex-row -mx-3">
+                                <div className="w-2/5 px-3">
+                                    <div className="flex">
+                                        <div>
+                                            <p className="text-white pr-3 text-[30px] font-semibold font-poppins">
+                                                2.
+                                            </p>
+                                        </div>
+                                        <img
+                                            src={emailjs}
+                                            alt="1"
+                                            className="w-full pt-2 max-h-[210px] h-full max-w-[350px]"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-3/5 px-3">
+                                    <div className="flex pb-3 items-center">
+                                        <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                                            EMAIL-JS
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Github-Link :{" "}
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
+                                                <a
+                                                    href="
+                                                    https://github.com/mohini-442/emailjs"
+                                                    target="blank"
+                                                >
+                                                    https://github.com/mohini-442/emailjs
+                                                </a>
+                                            </span>
+                                        </p>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Live-Link :{" "}
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
+                                                <a
+                                                    href="https://emailjs-seven.vercel.app/"
+                                                    target="blank"
+                                                >
+                                                    https://emailjs-seven.vercel.app/
                                                 </a>
                                             </span>
                                         </p>

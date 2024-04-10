@@ -28,3 +28,15 @@
 .font-poppins {
   font-family: 'poppins', sans-serif;
 }
+
+
+.gradient1{
+  background: linear-gradient(180deg, #FF00F4 0%, #3D78FE 100%);
+}
+.bgimage{
+  background-image: url(./assets/images/moon.png);
+}
+
+.bgimage2{
+  background-image: url(./assets/images/footerbg.png);
+}
