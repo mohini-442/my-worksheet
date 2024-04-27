@@ -16,6 +16,7 @@ import img15 from '../assets/images/vite.png';
 import img16 from '../assets/images/worksheet.png';
 import noblemind from '../assets/images/noblemind.png';
 import emailjs from '../assets/images/emailjs.jpg';
+import marc from '../assets/images/marc.jpg';
 
 const Mywork = () => {
     const [tab, settab] = useState("tab1");
@@ -896,10 +897,11 @@ const Mywork = () => {
                                     </div>
                                 </div>
                                 <div className="w-3/5 px-3">
-                                    <div className="flex pb-3 items-center">
+                                    <div className="flex pb-3 items-center gap-4">
                                         <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
                                             EMAIL-JS
                                         </p>
+                                        <p className="text-white pr-2 font-semibold text-[16px] font-poppins ">Sumit date : 9 April</p>
                                     </div>
                                     <div>
                                         <p className="text-white text-xl font-poppins ">
@@ -927,6 +929,57 @@ const Mywork = () => {
                                         </p>
                                     </div>
                                 </div>
+                               
+                            </div>
+                            <div className="flex flex-wrap items-center flex-row -mx-3">
+                                <div className="w-2/5 px-3">
+                                    <div className="flex">
+                                        <div>
+                                            <p className="text-white pr-3 text-[30px] font-semibold font-poppins">
+                                                3.
+                                            </p>
+                                        </div>
+                                        <img
+                                            src={marc}
+                                            alt="1"
+                                            className="w-full pt-2 max-h-[210px] h-full max-w-[350px]"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-3/5 px-3">
+                                    <div className="flex pb-3 items-center gap-4">
+                                        <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                                            EMAIL-JS
+                                        </p>
+                                        <p className="text-white pr-2 font-semibold text-[16px] font-poppins ">Sumit date : 24 April</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Github-Link :{" "}
+                                            <span className="ms-3 hover:text-[#E148EB] duration-300">
+                                                <a
+                                                    href="
+                                                   https://github.com/mohini-442/marc-joachim"
+                                                    target="blank"
+                                                >
+                                                    https://github.com/mohini-442/marc-joachim
+                                                </a>
+                                            </span>
+                                        </p>
+                                        <p className="text-white text-xl font-poppins ">
+                                            Live-Link :{" "}
+                                            <span className="ms-3  hover:text-[#E148EB] duration-300">
+                                                <a
+                                                    href="https://marc-joachim-self.vercel.app/"
+                                                    target="blank"
+                                                >
+                                                    https://marc-joachim-self.vercel.app/
+                                                </a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>}
                     </div>
